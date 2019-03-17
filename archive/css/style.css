@@ -1,0 +1,107 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+
+}
+/* .jumbocontainer {
+    margin-left: 0;
+    margin-right: 0;
+}
+*/
+
+/* paralax settings*/
+.jumbo1 {
+    background-image: url("../img/introasian.jpg");
+    min-height: 100%;
+   
+
+}
+
+.jumbo2 {
+    background-image: url("../img/building.jpg");
+    min-height: 100%;
+    min-width: 50%;
+
+}
+
+.jumbo3 {
+    background-image: url("../img/buildings.jpg");
+    min-height: 100%;
+    min-width: 50%;
+
+}
+
+.jumbo4 {
+    background-image: url("../img/awning.jpg");
+    min-height: 100%;
+    min-width: 50%;
+
+}
+.jumbo1, .jumbo2, .jumbo3, .jumbo4 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+
+}
+
+.jumbotron {
+
+    margin-bottom: 0;
+}
+
+
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    opacity: 1;
+}
+
+.speccaption {
+
+    top: 20%
+    
+    }
+
+.introcontainer {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black
+
+
+}
+
+
+.zdex {
+z-index: 100;
+position:fixed;
+width: 100%;
+
+}
+
+.jumbotron {
+
+    margin-bottom: 0;
+}
+
